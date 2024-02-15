@@ -1,0 +1,197 @@
+.checkout-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.checkout-container .left-block {
+    width: 30%;
+}
+.checkout-container .right-block {
+    width: 70%;
+}
+.com-title-block-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.com-title-block {
+    min-height: 55px;
+}
+.checkout-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.thankyou-plan.checkout-ty-plan {
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-top: 15px;
+}
+.thankyou-plan .ty-title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.ty-plan-features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    max-width: 325px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.checkout-ty-plan .ty-plan-features {
+    margin: 10px 0;
+}
+.thankyou-plan .first-ty-plan {
+    display: flex;
+    gap: 10px;
+}
+.ty-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.checkout-ty-plan .ty-text {
+    font-size: 14px;
+}
+.router-opt-block {
+    border-radius: 12px;
+    background: #f1f1f1;
+    padding: 20px 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.router-opt-block .rout-left, .router-opt-block .rout-btn {
+    width: calc((100% / 2) - 10px);
+}
+.router-opt-block .rout-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.router-opt-block .rout-left p {
+    color: #505050;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.router-opt-block .rout-left img {
+    width: 50px;
+    height: auto;
+}
+.rout-btn .red-btn {
+    background-color: #ed3034;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.offer-headline {
+    font-size: 26px;
+    font-weight: 600;
+}
+.checkout-block {
+    border-radius: 45px 45px 0 0;
+    background: linear-gradient(180deg, #fee8e9 30.48%, #fff 100.76%);
+    height: 100%;
+}
+.checkout-block .checkout-pallet {
+    max-width: 80%;
+    margin: 15px auto 0;
+    padding-top: 30px;
+}
+.checkout-pallet .single-pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.cp-font {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cp-text-descp {
+    color: #898989;
+    font-size: 12px;
+}
+.checkout-pallet .single-pay:nth-child(2), .checkout-pallet .single-pay:nth-child(4) {
+    border-bottom: 1px solid #898989;
+}
+.tandc {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.form-group label {
+    position: relative;
+    cursor: pointer;
+    color: #898989;
+    font-size: 12px;
+}
+.form-group label:before {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.form-group input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 5px;
+    height: 11px;
+    border: 1px solid #dd2424;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.otp-block-alt {
+    display: flex;
+    justify-content: center;
+}
+.otp-block-alt a {
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #ed3034;
+    padding: 12px 20px;
+    z-index: 1;
+}
+.otp-block-alt input {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #898989;
+    position: relative;
+    left: -14px;
+    text-align: center;
+    color: #898989;
+    font-size: 14px;
+}
