@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { ReviewComponent } from './review/review.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ThankyouComponent } from './thankyou/thankyou.component';
 
 export const routes: Routes = [
     
@@ -12,4 +13,5 @@ export const routes: Routes = [
     { path: 'review', component: ReviewComponent},
     { path: 'error', component: ErrorComponent } ,
     { path: 'checkout', component: CheckoutComponent } ,
+    { path: 'thankyou', component: ThankyouComponent } ,
 ];
