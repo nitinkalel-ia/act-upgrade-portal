@@ -103,6 +103,7 @@ body {
   color: #fff;
   position: relative;
   background: linear-gradient(105deg, #ff512f -0.04%, #dd2424 77.73%);
+  /* background: #000; */
 }
 body.popup-open {
   position: relative;
@@ -239,6 +240,9 @@ header .logo {
   opacity: 0.5;
   padding: 5px 25px;
   width: 100%;
+}
+.form-data .otp-block {
+  display: none;
 }
 .form-data .otp-block .otp-text {
   color: #00000050;
