@@ -17,9 +17,10 @@
               placeholder="Account ID/User ID/Registered Mobile No."
               id="usernameField"
               required
-              (ngModel)="postData.account_no"
-            />
-            <div class="otp-block">
+              [(ngModel)]="postData.account_no"
+              
+              />
+            <div class="otp-block" *ngIf="responseData && responseData.status">
                 <p class="otp-text">OTP has been sent</p>
                 <input type="text" placeholder="Enter OTP">
             </div>

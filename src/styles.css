@@ -241,9 +241,9 @@ header .logo {
   padding: 5px 25px;
   width: 100%;
 }
-.form-data .otp-block {
+/* .form-data .otp-block {
   display: none;
-}
+} */
 .form-data .otp-block .otp-text {
   color: #00000050;
   text-align: center;
